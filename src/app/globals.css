@@ -2,5 +2,15 @@
 
 @theme {
   --font-display: "monggoland";
-  --font-serif: "ptSerif";
+  --font-serif: "ptSerif", ui-serif, Georgia, Cambria, "Times New Roman", Times,
+    serif;
+  --color-brown: #463e33;
+  --color-beige: #f6f1eb;
+}
+
+@layer components {
+  body {
+    background-color: var(--color-beige);
+    color: var(--color-brown);
+  }
 }
