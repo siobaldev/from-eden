@@ -6,21 +6,16 @@
     serif;
   --color-brown: #463e33;
   --color-beige: #f6f1eb;
-
-  --step--2: clamp(0.64rem, 0.5979rem + 0.2105vw, 0.8rem);
-  --step--1: clamp(0.8rem, 0.7474rem + 0.2632vw, 1rem);
-  --step-0: clamp(1rem, 0.9342rem + 0.3289vw, 1.25rem);
-  --step-1: clamp(1.25rem, 1.1678rem + 0.4112vw, 1.5625rem);
-  --step-2: clamp(1.5625rem, 1.4597rem + 0.514vw, 1.9531rem);
-  --step-3: clamp(1.9531rem, 1.8246rem + 0.6425vw, 2.4414rem);
-  --step-4: clamp(2.4414rem, 2.2808rem + 0.8031vw, 3.0518rem);
-  --step-5: clamp(3.0518rem, 2.851rem + 1.0039vw, 3.8147rem);
 }
 
 @layer components {
   body {
     background-color: var(--color-beige);
     color: var(--color-brown);
-    font-size: var(--step-0);
+    font-size: var(--fs-base);
+  }
+
+  h1 {
+    font-family: var(--font-display);
   }
 }
