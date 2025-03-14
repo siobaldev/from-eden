@@ -22,5 +22,11 @@ export const siteConfig = {
         label: "Contact",
       },
     ],
+    hero: {
+      title: "Artisanal floral arrangements, thoughtfully crafted by hand",
+      description:
+        "Elevate your space, celebrate special moments, and express your sentiments with our ethically sourced, seasonal blooms delivered directly to your door",
+      cta: "Shop Our Collections",
+    },
   },
 };
